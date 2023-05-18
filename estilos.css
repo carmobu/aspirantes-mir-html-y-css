@@ -9,17 +9,21 @@
     color: white;
   }
 
-.contenedor {
-    overflow: auto;
-}
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+  }
 
 .ingredientes {
     flex: 1;
 }
 
 .imagen-receta {
-    float: left;
-    margin-right: 20px;
-    max-width: 400px;
-}
+    max-width: 300px;
+    margin: 0 10px;
+  }
 
+
+.h4 {
+    text-align: center;
+}
