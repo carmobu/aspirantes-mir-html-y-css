@@ -1,0 +1,51 @@
+.formulario {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #bd09b7, #6b4cf5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (min-width: 500px) {
+    .formulario {
+      width: 300px;
+    }
+  }
+  
+  /* Estilos para campos de entrada */
+  .formulario input[type="email"],
+  .formulario input[type="password"] {
+    width: 300px;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón */
+  .formulario button {
+    padding: 5px 15px;
+    float: right;
+  }
+  
+  /* Estilos para otros elementos */
+  .formulario h2 {
+    margin-top: 0;
+  }
+
+  #gender {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+  }
+
+  #terms {
+    
+    padding: 7px;
+    margin-bottom: 10px;
+  }
+
+  
